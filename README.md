@@ -3,8 +3,11 @@
 This a template for html preprocessing and typescript
 
 `build/stuff` -- this is for all non-code files 
+
 `build/pages` -- this is for all `.ftml` files
+
 `build/src` -- this is for all `.ts` files
+
 `build/styles` -- this is for all `.css` files but anything will do
 
 Build your site with `make` or `make [ts | pages | styles]`
