@@ -7,6 +7,6 @@
     <title>Float Example Page</title>
 </head>
 <body>
-    <#include src="partials/title.ftml" value="Hello From Float" weight="2">
+    <#include src="partials/title.ftml" value="Hello from Float" weight="2">
 </body>
 </html>
