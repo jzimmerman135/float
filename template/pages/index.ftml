@@ -8,5 +8,6 @@
 </head>
 <body>
     <#include src="partials/title.ftml" value="Hello from Float" weight="2">
+    <a href="otherpage.ftml">Other page</a>
 </body>
 </html>
