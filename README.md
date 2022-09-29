@@ -11,6 +11,7 @@ This a template for html preprocessing and typescript
 `build/styles` -- this is for all `.css` files but anything will do
 
 Build your site with `make` or `make [ts | pages | styles]`
+
 Clean build with `make clean`
 
 ### FTML spec
