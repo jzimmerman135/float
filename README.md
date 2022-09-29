@@ -16,7 +16,11 @@ Clean build with `make clean`
 
 ### FTML spec
 
-Ftml is the same as html except you have an additional tag
+Ftml is the same as html except you have an additional tag: `<#include src='filepath.ftml'>
+
+You can also pass variables to the include tag.
+
+Here is an example:
 
 `<#include src='partials/nav.ftml' button="Order" dest="order.ftml">`
 
@@ -38,3 +42,8 @@ Then the the `<#include>` tag will be replaced with
 </div>
 ```
 
+Includes can be recursive, although circular includes will cause an error.
+
+Variables can be named anything you wish. 
+
+Don't expect it to be perfect, but it gets the job done.
